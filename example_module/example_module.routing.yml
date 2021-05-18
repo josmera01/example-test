@@ -1,0 +1,15 @@
+example_module.formtest:
+  path: '/example-module/form'
+  defaults:
+    _form: '\Drupal\example_module\Form\Form'
+    _title: 'Form'
+  requirements:
+    _access: 'TRUE'
+
+example_module.data_controller_get:
+  path: '/example-module/data'
+  defaults:
+    _controller: '\Drupal\example_module\Controller\DataController::get'
+    _title: 'title'
+  requirements:
+    _permission: 'access content'

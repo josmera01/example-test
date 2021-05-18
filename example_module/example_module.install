@@ -1,0 +1,39 @@
+<?php
+
+/**
+ * Implementation hook_schema()
+ */
+function example_module_schema() {
+  $schema = [];
+  $schema['example_users'] = [
+    'fields' => [
+      'id' => [
+        'type' => 'serial',
+        'not null' => TRUE,
+      ],
+      'name' => [
+        'type' => 'varchar',
+        'length' => 50,
+      ],
+      'id_user' => [
+        'type' => 'int',
+        'default' => 0
+      ],
+      'date' => [
+        'type' => 'int',
+        'default' => 0
+      ],
+      'jobs' => [
+        'type' => 'varchar',
+        'length' => 500,
+      ],
+      'status' => [
+        'type' => 'int',
+        'default' => 0,
+      ],
+    ],
+    'primary key' => ['id'],
+  ];
+
+  return $schema;
+}

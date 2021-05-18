@@ -1,0 +1,21 @@
+# Crud entity routing definition
+crud_entity.settings_tab:
+  route_name: crud_entity.settings
+  title: 'Settings'
+  base_route: crud_entity.settings
+
+entity.crud_entity.canonical:
+  route_name: entity.crud_entity.canonical
+  base_route: entity.crud_entity.canonical
+  title: 'View'
+
+entity.crud_entity.edit_form:
+  route_name: entity.crud_entity.edit_form
+  base_route: entity.crud_entity.canonical
+  title: 'Edit'
+
+entity.crud_entity.delete_form:
+  route_name:  entity.crud_entity.delete_form
+  base_route:  entity.crud_entity.canonical
+  title: Delete
+  weight: 10

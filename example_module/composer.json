@@ -1,0 +1,13 @@
+{
+    "name": "example_module",
+    "type": "drupal-module",
+    "description": "Example module test backend",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/example_module",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/example_module",
+        "source": "http://cgit.drupalcode.org/example_module",
+    },
+}

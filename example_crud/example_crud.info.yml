@@ -1,0 +1,7 @@
+name: 'example crud'
+type: module
+description: 'Example CRUD'
+core: 8.x
+package: 'Custom'
+dependencies:
+  - rest

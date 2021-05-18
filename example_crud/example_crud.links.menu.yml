@@ -1,0 +1,14 @@
+
+# Crud entity menu items definition
+entity.crud_entity.collection:
+  title: 'Crud entity list'
+  route_name: entity.crud_entity.collection
+  description: 'List Crud entity entities'
+  parent: system.admin_structure
+  weight: 100
+
+crud_entity.admin.structure.settings:
+  title: 'Crud entity settings'
+  description: 'Configure Crud entity entities'
+  route_name: crud_entity.settings
+  parent: system.admin_structure

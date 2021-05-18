@@ -1,0 +1,20 @@
+add crud entity entities:
+  title: 'Create new Crud entity entities'
+
+administer crud entity entities:
+  title: 'Administer Crud entity entities'
+  description: 'Allow to access the administration form to configure Crud entity entities.'
+  restrict access: true
+
+delete crud entity entities:
+  title: 'Delete Crud entity entities'
+
+edit crud entity entities:
+  title: 'Edit Crud entity entities'
+
+view published crud entity entities:
+  title: 'View published Crud entity entities'
+
+view unpublished crud entity entities:
+  title: 'View unpublished Crud entity entities'
+

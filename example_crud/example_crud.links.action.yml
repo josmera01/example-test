@@ -1,0 +1,5 @@
+entity.crud_entity.add_form:
+  route_name: entity.crud_entity.add_form
+  title: 'Add Crud entity'
+  appears_on:
+    - entity.crud_entity.collection
